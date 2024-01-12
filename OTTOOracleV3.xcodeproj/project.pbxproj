@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		31391D972B516AB3008FCC57 /* OTTOOracleV3App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31391D962B516AB3008FCC57 /* OTTOOracleV3App.swift */; };
+		31391D992B516AB3008FCC57 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31391D982B516AB3008FCC57 /* ContentView.swift */; };
+		31391D9B2B516AB4008FCC57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31391D9A2B516AB4008FCC57 /* Assets.xcassets */; };
+		31391D9F2B516AB4008FCC57 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31391D9E2B516AB4008FCC57 /* Preview Assets.xcassets */; };
+		31391DA92B516AB4008FCC57 /* OTTOOracleV3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31391DA82B516AB4008FCC57 /* OTTOOracleV3Tests.swift */; };
+		31391DB32B516AB4008FCC57 /* OTTOOracleV3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31391DB22B516AB4008FCC57 /* OTTOOracleV3UITests.swift */; };
+		31391DB52B516AB4008FCC57 /* OTTOOracleV3UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31391DB42B516AB4008FCC57 /* OTTOOracleV3UITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		31391DA52B516AB4008FCC57 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 31391D8B2B516AB3008FCC57 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 31391D922B516AB3008FCC57;
+			remoteInfo = OTTOOracleV3;
+		};
+		31391DAF2B516AB4008FCC57 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 31391D8B2B516AB3008FCC57 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 31391D922B516AB3008FCC57;
+			remoteInfo = OTTOOracleV3;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		31391D932B516AB3008FCC57 /* OTTOOracleV3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OTTOOracleV3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		31391D962B516AB3008FCC57 /* OTTOOracleV3App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTTOOracleV3App.swift; sourceTree = "<group>"; };
+		31391D982B516AB3008FCC57 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		31391D9A2B516AB4008FCC57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		31391D9C2B516AB4008FCC57 /* OTTOOracleV3.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OTTOOracleV3.entitlements; sourceTree = "<group>"; };
+		31391D9E2B516AB4008FCC57 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		31391DA42B516AB4008FCC57 /* OTTOOracleV3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OTTOOracleV3Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		31391DA82B516AB4008FCC57 /* OTTOOracleV3Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTTOOracleV3Tests.swift; sourceTree = "<group>"; };
+		31391DAE2B516AB4008FCC57 /* OTTOOracleV3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OTTOOracleV3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		31391DB22B516AB4008FCC57 /* OTTOOracleV3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTTOOracleV3UITests.swift; sourceTree = "<group>"; };
+		31391DB42B516AB4008FCC57 /* OTTOOracleV3UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTTOOracleV3UITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		31391D902B516AB3008FCC57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31391DA12B516AB4008FCC57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31391DAB2B516AB4008FCC57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		31391D8A2B516AB3008FCC57 = {
+			isa = PBXGroup;
+			children = (
+				31391D952B516AB3008FCC57 /* OTTOOracleV3 */,
+				31391DA72B516AB4008FCC57 /* OTTOOracleV3Tests */,
+				31391DB12B516AB4008FCC57 /* OTTOOracleV3UITests */,
+				31391D942B516AB3008FCC57 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		31391D942B516AB3008FCC57 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				31391D932B516AB3008FCC57 /* OTTOOracleV3.app */,
+				31391DA42B516AB4008FCC57 /* OTTOOracleV3Tests.xctest */,
+				31391DAE2B516AB4008FCC57 /* OTTOOracleV3UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		31391D952B516AB3008FCC57 /* OTTOOracleV3 */ = {
+			isa = PBXGroup;
+			children = (
+				31391D962B516AB3008FCC57 /* OTTOOracleV3App.swift */,
+				31391D982B516AB3008FCC57 /* ContentView.swift */,
+				31391D9A2B516AB4008FCC57 /* Assets.xcassets */,
+				31391D9C2B516AB4008FCC57 /* OTTOOracleV3.entitlements */,
+				31391D9D2B516AB4008FCC57 /* Preview Content */,
+			);
+			path = OTTOOracleV3;
+			sourceTree = "<group>";
+		};
+		31391D9D2B516AB4008FCC57 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				31391D9E2B516AB4008FCC57 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		31391DA72B516AB4008FCC57 /* OTTOOracleV3Tests */ = {
+			isa = PBXGroup;
+			children = (
+				31391DA82B516AB4008FCC57 /* OTTOOracleV3Tests.swift */,
+			);
+			path = OTTOOracleV3Tests;
+			sourceTree = "<group>";
+		};
+		31391DB12B516AB4008FCC57 /* OTTOOracleV3UITests */ = {
+			isa = PBXGroup;
+			children = (
+				31391DB22B516AB4008FCC57 /* OTTOOracleV3UITests.swift */,
+				31391DB42B516AB4008FCC57 /* OTTOOracleV3UITestsLaunchTests.swift */,
+			);
+			path = OTTOOracleV3UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		31391D922B516AB3008FCC57 /* OTTOOracleV3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31391DB82B516AB4008FCC57 /* Build configuration list for PBXNativeTarget "OTTOOracleV3" */;
+			buildPhases = (
+				31391D8F2B516AB3008FCC57 /* Sources */,
+				31391D902B516AB3008FCC57 /* Frameworks */,
+				31391D912B516AB3008FCC57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OTTOOracleV3;
+			productName = OTTOOracleV3;
+			productReference = 31391D932B516AB3008FCC57 /* OTTOOracleV3.app */;
+			productType = "com.apple.product-type.application";
+		};
+		31391DA32B516AB4008FCC57 /* OTTOOracleV3Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31391DBB2B516AB4008FCC57 /* Build configuration list for PBXNativeTarget "OTTOOracleV3Tests" */;
+			buildPhases = (
+				31391DA02B516AB4008FCC57 /* Sources */,
+				31391DA12B516AB4008FCC57 /* Frameworks */,
+				31391DA22B516AB4008FCC57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				31391DA62B516AB4008FCC57 /* PBXTargetDependency */,
+			);
+			name = OTTOOracleV3Tests;
+			productName = OTTOOracleV3Tests;
+			productReference = 31391DA42B516AB4008FCC57 /* OTTOOracleV3Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		31391DAD2B516AB4008FCC57 /* OTTOOracleV3UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31391DBE2B516AB4008FCC57 /* Build configuration list for PBXNativeTarget "OTTOOracleV3UITests" */;
+			buildPhases = (
+				31391DAA2B516AB4008FCC57 /* Sources */,
+				31391DAB2B516AB4008FCC57 /* Frameworks */,
+				31391DAC2B516AB4008FCC57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				31391DB02B516AB4008FCC57 /* PBXTargetDependency */,
+			);
+			name = OTTOOracleV3UITests;
+			productName = OTTOOracleV3UITests;
+			productReference = 31391DAE2B516AB4008FCC57 /* OTTOOracleV3UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		31391D8B2B516AB3008FCC57 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					31391D922B516AB3008FCC57 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					31391DA32B516AB4008FCC57 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 31391D922B516AB3008FCC57;
+					};
+					31391DAD2B516AB4008FCC57 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 31391D922B516AB3008FCC57;
+					};
+				};
+			};
+			buildConfigurationList = 31391D8E2B516AB3008FCC57 /* Build configuration list for PBXProject "OTTOOracleV3" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 31391D8A2B516AB3008FCC57;
+			productRefGroup = 31391D942B516AB3008FCC57 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				31391D922B516AB3008FCC57 /* OTTOOracleV3 */,
+				31391DA32B516AB4008FCC57 /* OTTOOracleV3Tests */,
+				31391DAD2B516AB4008FCC57 /* OTTOOracleV3UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		31391D912B516AB3008FCC57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31391D9F2B516AB4008FCC57 /* Preview Assets.xcassets in Resources */,
+				31391D9B2B516AB4008FCC57 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31391DA22B516AB4008FCC57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31391DAC2B516AB4008FCC57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		31391D8F2B516AB3008FCC57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31391D992B516AB3008FCC57 /* ContentView.swift in Sources */,
+				31391D972B516AB3008FCC57 /* OTTOOracleV3App.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31391DA02B516AB4008FCC57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31391DA92B516AB4008FCC57 /* OTTOOracleV3Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31391DAA2B516AB4008FCC57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31391DB32B516AB4008FCC57 /* OTTOOracleV3UITests.swift in Sources */,
+				31391DB52B516AB4008FCC57 /* OTTOOracleV3UITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		31391DA62B516AB4008FCC57 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 31391D922B516AB3008FCC57 /* OTTOOracleV3 */;
+			targetProxy = 31391DA52B516AB4008FCC57 /* PBXContainerItemProxy */;
+		};
+		31391DB02B516AB4008FCC57 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 31391D922B516AB3008FCC57 /* OTTOOracleV3 */;
+			targetProxy = 31391DAF2B516AB4008FCC57 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		31391DB62B516AB4008FCC57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		31391DB72B516AB4008FCC57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		31391DB92B516AB4008FCC57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = OTTOOracleV3/OTTOOracleV3.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OTTOOracleV3/Preview Content\"";
+				DEVELOPMENT_TEAM = 69WU6LWMSQ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Rosenbaum.OTTOOracleV3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		31391DBA2B516AB4008FCC57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = OTTOOracleV3/OTTOOracleV3.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OTTOOracleV3/Preview Content\"";
+				DEVELOPMENT_TEAM = 69WU6LWMSQ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Rosenbaum.OTTOOracleV3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		31391DBC2B516AB4008FCC57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 69WU6LWMSQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Rosenbaum.OTTOOracleV3Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OTTOOracleV3.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OTTOOracleV3";
+			};
+			name = Debug;
+		};
+		31391DBD2B516AB4008FCC57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 69WU6LWMSQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Rosenbaum.OTTOOracleV3Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OTTOOracleV3.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OTTOOracleV3";
+			};
+			name = Release;
+		};
+		31391DBF2B516AB4008FCC57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 69WU6LWMSQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Rosenbaum.OTTOOracleV3UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OTTOOracleV3;
+			};
+			name = Debug;
+		};
+		31391DC02B516AB4008FCC57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 69WU6LWMSQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Rosenbaum.OTTOOracleV3UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OTTOOracleV3;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		31391D8E2B516AB3008FCC57 /* Build configuration list for PBXProject "OTTOOracleV3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31391DB62B516AB4008FCC57 /* Debug */,
+				31391DB72B516AB4008FCC57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31391DB82B516AB4008FCC57 /* Build configuration list for PBXNativeTarget "OTTOOracleV3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31391DB92B516AB4008FCC57 /* Debug */,
+				31391DBA2B516AB4008FCC57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31391DBB2B516AB4008FCC57 /* Build configuration list for PBXNativeTarget "OTTOOracleV3Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31391DBC2B516AB4008FCC57 /* Debug */,
+				31391DBD2B516AB4008FCC57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31391DBE2B516AB4008FCC57 /* Build configuration list for PBXNativeTarget "OTTOOracleV3UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31391DBF2B516AB4008FCC57 /* Debug */,
+				31391DC02B516AB4008FCC57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 31391D8B2B516AB3008FCC57 /* Project object */;
+}
