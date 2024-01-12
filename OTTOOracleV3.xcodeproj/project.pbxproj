@@ -14,6 +14,12 @@
 		31391DA92B516AB4008FCC57 /* OTTOOracleV3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31391DA82B516AB4008FCC57 /* OTTOOracleV3Tests.swift */; };
 		31391DB32B516AB4008FCC57 /* OTTOOracleV3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31391DB22B516AB4008FCC57 /* OTTOOracleV3UITests.swift */; };
 		31391DB52B516AB4008FCC57 /* OTTOOracleV3UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31391DB42B516AB4008FCC57 /* OTTOOracleV3UITestsLaunchTests.swift */; };
+		31391DC82B516B0F008FCC57 /* MEANING-TABLE.csv in Resources */ = {isa = PBXBuildFile; fileRef = 31391DC22B516B0F008FCC57 /* MEANING-TABLE.csv */; };
+		31391DC92B516B0F008FCC57 /* RANDOM_EVENT_FOCUS-TABLE.csv in Resources */ = {isa = PBXBuildFile; fileRef = 31391DC32B516B0F008FCC57 /* RANDOM_EVENT_FOCUS-TABLE.csv */; };
+		31391DCA2B516B0F008FCC57 /* FATE_CHART-STANDARD_TABLE.csv in Resources */ = {isa = PBXBuildFile; fileRef = 31391DC42B516B0F008FCC57 /* FATE_CHART-STANDARD_TABLE.csv */; };
+		31391DCB2B516B0F008FCC57 /* FATE_CHART-LOW_CHAOS_TABLE.csv in Resources */ = {isa = PBXBuildFile; fileRef = 31391DC52B516B0F008FCC57 /* FATE_CHART-LOW_CHAOS_TABLE.csv */; };
+		31391DCC2B516B0F008FCC57 /* FATE_CHART-MID_CHAOS_TABLE.csv in Resources */ = {isa = PBXBuildFile; fileRef = 31391DC62B516B0F008FCC57 /* FATE_CHART-MID_CHAOS_TABLE.csv */; };
+		31391DCD2B516B0F008FCC57 /* FATE_CHART-NO_CHAOS_TABLE.csv in Resources */ = {isa = PBXBuildFile; fileRef = 31391DC72B516B0F008FCC57 /* FATE_CHART-NO_CHAOS_TABLE.csv */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +51,12 @@
 		31391DAE2B516AB4008FCC57 /* OTTOOracleV3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OTTOOracleV3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		31391DB22B516AB4008FCC57 /* OTTOOracleV3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTTOOracleV3UITests.swift; sourceTree = "<group>"; };
 		31391DB42B516AB4008FCC57 /* OTTOOracleV3UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTTOOracleV3UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		31391DC22B516B0F008FCC57 /* MEANING-TABLE.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "MEANING-TABLE.csv"; sourceTree = "<group>"; };
+		31391DC32B516B0F008FCC57 /* RANDOM_EVENT_FOCUS-TABLE.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "RANDOM_EVENT_FOCUS-TABLE.csv"; sourceTree = "<group>"; };
+		31391DC42B516B0F008FCC57 /* FATE_CHART-STANDARD_TABLE.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "FATE_CHART-STANDARD_TABLE.csv"; sourceTree = "<group>"; };
+		31391DC52B516B0F008FCC57 /* FATE_CHART-LOW_CHAOS_TABLE.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "FATE_CHART-LOW_CHAOS_TABLE.csv"; sourceTree = "<group>"; };
+		31391DC62B516B0F008FCC57 /* FATE_CHART-MID_CHAOS_TABLE.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "FATE_CHART-MID_CHAOS_TABLE.csv"; sourceTree = "<group>"; };
+		31391DC72B516B0F008FCC57 /* FATE_CHART-NO_CHAOS_TABLE.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "FATE_CHART-NO_CHAOS_TABLE.csv"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +107,7 @@
 		31391D952B516AB3008FCC57 /* OTTOOracleV3 */ = {
 			isa = PBXGroup;
 			children = (
+				31391DC12B516ADF008FCC57 /* Resources */,
 				31391D962B516AB3008FCC57 /* OTTOOracleV3App.swift */,
 				31391D982B516AB3008FCC57 /* ContentView.swift */,
 				31391D9A2B516AB4008FCC57 /* Assets.xcassets */,
@@ -127,6 +140,19 @@
 				31391DB42B516AB4008FCC57 /* OTTOOracleV3UITestsLaunchTests.swift */,
 			);
 			path = OTTOOracleV3UITests;
+			sourceTree = "<group>";
+		};
+		31391DC12B516ADF008FCC57 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				31391DC52B516B0F008FCC57 /* FATE_CHART-LOW_CHAOS_TABLE.csv */,
+				31391DC62B516B0F008FCC57 /* FATE_CHART-MID_CHAOS_TABLE.csv */,
+				31391DC72B516B0F008FCC57 /* FATE_CHART-NO_CHAOS_TABLE.csv */,
+				31391DC42B516B0F008FCC57 /* FATE_CHART-STANDARD_TABLE.csv */,
+				31391DC22B516B0F008FCC57 /* MEANING-TABLE.csv */,
+				31391DC32B516B0F008FCC57 /* RANDOM_EVENT_FOCUS-TABLE.csv */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +259,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31391DC92B516B0F008FCC57 /* RANDOM_EVENT_FOCUS-TABLE.csv in Resources */,
 				31391D9F2B516AB4008FCC57 /* Preview Assets.xcassets in Resources */,
+				31391DCA2B516B0F008FCC57 /* FATE_CHART-STANDARD_TABLE.csv in Resources */,
+				31391DC82B516B0F008FCC57 /* MEANING-TABLE.csv in Resources */,
+				31391DCB2B516B0F008FCC57 /* FATE_CHART-LOW_CHAOS_TABLE.csv in Resources */,
+				31391DCC2B516B0F008FCC57 /* FATE_CHART-MID_CHAOS_TABLE.csv in Resources */,
+				31391DCD2B516B0F008FCC57 /* FATE_CHART-NO_CHAOS_TABLE.csv in Resources */,
 				31391D9B2B516AB4008FCC57 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

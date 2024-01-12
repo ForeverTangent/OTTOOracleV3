@@ -1,0 +1,13 @@
+EVENT,MIN_RESULT,MAX_RESULT
+RemoteEvent,1,5
+AmbiguousEvent,6,10
+NewNPC,11,20
+NPCAction,21,40
+NPCNegative,41,45
+NPCPositive,46,50
+MoveTowardAThread,51,55
+MoveAwayFromAThread,56,65
+CloseAThread,66,70
+PCNegative,71,80
+PCPositive,81,85
+CurrentContext,86,100
